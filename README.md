@@ -34,7 +34,7 @@ ForecastResponse forecast = weatherManager.findForecastByGeographicCoordinates(4
 Les objectifs sont les suivants :
 
 1. Recherchez la météo actuelle par nom de ville.
-    - Récupérer le noms d'une ville à l'aide d'une TextView
+    - Récupérer le noms d'une ville à l'aide d'une EditText
     - Attention, le téléchargement des informations doit se faire par une [AsyncTask](https://developer.android.com/reference/android/os/AsyncTask.html)
     - Pour commencer contentez vous de logger le résultat ou d'afficher une info simple
 
